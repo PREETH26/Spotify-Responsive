@@ -10,7 +10,7 @@ body{
     margin-top: 60px;
     background-color: black;
     display: inline-block;
-    height: 60vh;
+    height: 100vh;
     width: 250px;
 }
 
@@ -131,7 +131,7 @@ h3,h4{
     background-color: rgb(33, 30, 30);
     width: 100%;
     margin-top: 60px;
-    height: 60%;
+    height: 60vw;
 }
 
 .arrow{
@@ -334,19 +334,260 @@ h3,h4{
 }
 
 
-.footer{
-    margin-top: 0;
-    padding: 10px;
-    display: flex;
-    align-items: center;
+@media(max-width:800px){
+    .sidebar{
+    height: 60vh;
+    width: 65px;
+    }
+
+    .sidebar span{
+        display: none;
+    }
+
+    .user{
+        margin-left: 350px;
+    }
+
+    h3,h4{
+        display: none;
+    }
+
+    .homeimg {
+        margin-left: 12px;
+    }
+
+    .searchimg, .libraryimg {
+        margin-left: 18px;
+    }
+
+    .playlist1 ,.like ,.episodes ,.inst{
+        margin-left: 15px;
+    }
+
+    .menu{
+        display: inline-block;
+        position: absolute;
+        background-color: rgb(33, 30, 30);
+        width: 90%;
+        margin-top: 60px;
+        height: 150vh;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 200px 200px ;
+        grid-template-columns: 200px 200px;
+        gap: 25px;
+    }
+
+    .neffex{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 105px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .kda{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .likeds{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 105px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 255px;
+    }
+    
+    .grid3{
+        display: grid;
+        grid-template-columns: 200px 200px 200px ;
+        grid-template-columns: 200px 200px 200px ;
+    }
 }
 
-.footer1{
-    width: 110px;
-    margin-left: 15px;
+
+
+@media(max-width:1350px) and (min-width:800px){
+    .menu{
+        display: inline-block;
+        position: absolute;
+        background-color: rgb(33, 30, 30);
+        width: 90%;
+        margin-top: 60px;
+        height: 100vw;
+    }
+    .user{
+        margin-left: 750px;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        gap: 25px;
+    }
+
+    .neffex{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 105px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .kda{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 180px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .likeds{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 255px;
+    }
+
+    .grid2{
+        position: absolute;
+        top: 234px;
+        left: 300px;
+    }
+
+    .grid3{
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+    }
+
+    .last{
+        position: absolute;
+        top: 780px;
+    }
 }
-.footer span{
-    color: white;
-    margin-top: 0;
-    margin-left: 15px;
+
+
+@media(max-width:1120px) and (min-width:800px){
+    .grid2{
+        position: absolute;
+        top: 268px;
+        left: 300px;
+    }
 }
+
+
+
+@media(max-width:450px){
+    .sidebar{
+    height: 60vh;
+    width: 65px;
+    }
+
+    .sidebar span{
+        display: none;
+    }
+
+    .user{
+        margin-left: 12px;
+    }
+
+    h3,h4{
+        display: none;
+    }
+
+    .homeimg {
+        margin-left: 12px;
+    }
+
+    .searchimg, .libraryimg {
+        margin-left: 18px;
+    }
+
+    .playlist1 ,.like ,.episodes ,.inst{
+        margin-left: 15px;
+    }
+
+    .menu{
+        display: inline-block;
+        position: absolute;
+        background-color: rgb(33, 30, 30);
+        width: 95%;
+        margin-top: 60px;
+        height: 200vh;
+        overflow-x: hidden;
+    }
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        gap: 25px;
+    }
+
+    .neffex{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .kda{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .likeds{
+        width: 275px;
+        background-color: rgb(66, 59, 59);
+        margin-left: 28px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 255px;
+    }
+    
+    .grid3{
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+        grid-template-columns: 200px;
+
+
+    }
+}
+
